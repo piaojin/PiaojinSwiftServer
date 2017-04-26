@@ -15,18 +15,31 @@ import PerfectHTTP<br>
 public typealias RequestHandler = (HTTPRequest, HTTPResponse) -> ()<br>
 //创建一个类,类似springMVC中的控制器<br>
 public class MainController : NSObject{<br>
-    let requestHandler : RequestHandler = {<br>
+    
+    let testRequestHandler : RequestHandler = {<br>
         (request : HTTPRequest, response : HTTPResponse)<br>
         in<br>
         response.setBody(string: "路由句柄已经收到,hello piaojin!")<br>
         response.completed()<br>
     }<br>
     
+    let testRequestHandler2 : RequestHandler = {<br>
+        (request : HTTPRequest, response : HTTPResponse)<br>
+        in<br>
+        response.setBody(string: "路由句柄已经收到,hello piaojin2!")<br>
+        response.completed()<br>
+    }<br>
+    
     //路由,用于处理一个请求<br>
-    public var testRoute : Routes = Routes()<br>
+    public lazy var route : Routes = {<br>
+        var tempRoute : Routes = Routes()<br>
+        //add方法相当于添加一个拦截特定请求的方法<br>
+        tempRoute.add(method: .get, uri: "/testRoutes", handler:self.testRequestHandler)<br>
+        tempRoute.add(method: .get, uri: "/testRoutes2", handler:self.testRequestHandler2)<br>
+        return tempRoute<br>
+    }()<br>
     
     public override init() {<br>
-        testRoute.add(method: .get, uri: "/testRoutes", handler:requestHandler)<br>
         super.init()<br>
     }<br>
 }<br>
@@ -42,7 +55,7 @@ let server = HTTPServer()<br>
 let controller : MainController = MainController()<br>
 
 /// MARK: 第3步在服务器上注册路由,路由的注册必须在服务器启动之前(server.start())<br>
-server.addRoutes(controller.testRoute)<br>
+server.addRoutes(controller.route)<br>
 
 // Set a listen port of 8080<br>
 server.serverPort = 8080<br>
