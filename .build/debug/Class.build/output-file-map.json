@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/master.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Controller/MainController.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainController.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Controller/MainController.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainController~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainController.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Dao/MySqlManager.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MySqlManager.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Dao/MySqlManager.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MySqlManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MySqlManager.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Main/main.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/main.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Main/main.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/main.swiftdeps"
+  }
+}

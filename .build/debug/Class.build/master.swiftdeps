@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "1298e863351f00c0d7b107561d9241ae"
+build_time: [546527448, 761976000]
+inputs:
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Controller/MainController.swift": [546526593, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Dao/MySqlManager.swift": [546515542, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Main/main.swift": [546526593, 0]

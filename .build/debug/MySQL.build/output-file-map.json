@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQL.build/master.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/MySQL/MySQL.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQL.build/MySQL.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQL.build/MySQL.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQL.build/MySQL~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQL.build/MySQL.swiftdeps"
+  }
+}

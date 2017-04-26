@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "d42b0599adb768a954f67df9ab69ac22"
+build_time: [546527440, 700848000]
+inputs:
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Bytes.swift": [546527427, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Dir.swift": [546527427, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/File.swift": [546527427, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/JSONConvertible.swift": [546527427, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Log.swift": [546527427, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectError.swift": [546527427, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectServer.swift": [546527427, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SwiftCompatibility.swift": [546527427, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SysProcess.swift": [546527427, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Utilities.swift": [546527427, 0]

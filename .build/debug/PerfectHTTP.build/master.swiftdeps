@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "e64c2cc09ec29ed0b6c59d582bc9c43f"
+build_time: [546527446, 525735000]
+inputs:
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPFilter.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPHeaders.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPMethod.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPRequest.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPResponse.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/MimeReader.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/MimeType.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/Routing.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/StaticFileHandler.swift": [546527426, 0]

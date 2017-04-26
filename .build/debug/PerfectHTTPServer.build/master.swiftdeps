@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "1f0ff81aad43f06c782dfb17cb23fc6d"
+build_time: [546527447, 807248000]
+inputs:
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HPACK.swift": [546527425, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP11Request.swift": [546527425, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP11Response.swift": [546527425, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2.swift": [546527425, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPContentCompression.swift": [546527425, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServer.swift": [546527425, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServerEx.swift": [546527425, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": [546527425, 0]

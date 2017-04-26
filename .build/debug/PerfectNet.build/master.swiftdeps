@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "448b88d8b1da066636ebc890da4eb71e"
+build_time: [546527445, 716173000]
+inputs:
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/Net.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetAddress.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetEvent.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetNamedPipe.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCP.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCPSSL.swift": [546527426, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetUDP.swift": [546527426, 0]
