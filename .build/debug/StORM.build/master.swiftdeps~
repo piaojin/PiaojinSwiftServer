@@ -1,0 +1,15 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "856c81be43349877d29d6b620b31531c"
+build_time: [546676103, 921232000]
+inputs:
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORM.swift": [546676098, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMConnect.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMCursor.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMDataSource.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMDataSourceCredentials.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMDataSourceOptions.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMError.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMJoins.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMProtocol.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMRow.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/StORM.git-6077292811663054913/Sources/StORM/StORMtResultSet.swift": [546578340, 0]

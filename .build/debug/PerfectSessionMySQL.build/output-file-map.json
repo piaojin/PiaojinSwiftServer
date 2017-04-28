@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSessionMySQL.build/master.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session-MySQL.git-8875601750614972909/Sources/MySQLSessionDriver.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSessionMySQL.build/MySQLSessionDriver.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSessionMySQL.build/MySQLSessionDriver.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSessionMySQL.build/MySQLSessionDriver~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSessionMySQL.build/MySQLSessionDriver.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session-MySQL.git-8875601750614972909/Sources/MySQLSessions.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSessionMySQL.build/MySQLSessions.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSessionMySQL.build/MySQLSessions.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSessionMySQL.build/MySQLSessions~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSessionMySQL.build/MySQLSessions.swiftdeps"
+  }
+}

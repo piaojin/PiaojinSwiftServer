@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "b8781704c55f50d84c86c6fb7f120fc7"
+build_time: [546571272, 694568000]
+inputs:
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/HTTP.swift": [546571267, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/MemorySessionDriver.swift": [546571267, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/MemorySessions.swift": [546571267, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/PerfectSession.swift": [546571267, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/SessionConfig.swift": [546571267, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/SessionManagerProtocol.swift": [546571267, 0]

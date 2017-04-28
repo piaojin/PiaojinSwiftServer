@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/master.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/TurnstileCrypto/BCrypt.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/BCrypt.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/BCrypt.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/BCrypt~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/BCrypt.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/TurnstileCrypto/Random.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/Random.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/Random.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/Random~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/Random.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/TurnstileCrypto/URandom.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/URandom.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/URandom.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/URandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/TurnstileCrypto.build/URandom.swiftdeps"
+  }
+}

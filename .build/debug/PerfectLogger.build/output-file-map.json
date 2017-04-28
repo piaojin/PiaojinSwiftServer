@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.build/master.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/FileLogger.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.build/FileLogger.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.build/FileLogger.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.build/FileLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.build/FileLogger.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/RemoteLogger.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.build/RemoteLogger.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.build/RemoteLogger.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.build/RemoteLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.build/RemoteLogger.swiftdeps"
+  }
+}

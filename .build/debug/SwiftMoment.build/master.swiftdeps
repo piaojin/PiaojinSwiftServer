@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "1f6ae0611a3f05ddb6f6b2cfbe550f43"
+build_time: [546578345, 769355000]
+inputs:
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Duration.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Extensions.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Moment.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/MomentFromNow.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Operators.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/TimeUnit.swift": [546578340, 0]

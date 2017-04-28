@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/master.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/HTTP.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/HTTP.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/HTTP.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/HTTP~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/HTTP.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/MemorySessionDriver.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/MemorySessionDriver.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/MemorySessionDriver.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/MemorySessionDriver~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/MemorySessionDriver.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/MemorySessions.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/MemorySessions.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/MemorySessions.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/MemorySessions~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/MemorySessions.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/PerfectSession.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/PerfectSession.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/PerfectSession.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/PerfectSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/PerfectSession.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/SessionConfig.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/SessionConfig.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/SessionConfig.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/SessionConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/SessionConfig.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Session.git--9144778184837659966/Sources/PerfectSession/SessionManagerProtocol.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/SessionManagerProtocol.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/SessionManagerProtocol.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/SessionManagerProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectSession.build/SessionManagerProtocol.swiftdeps"
+  }
+}

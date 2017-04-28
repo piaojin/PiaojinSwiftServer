@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "87d1ff7ee9bb86b2f8c14d9c3ccc3f60"
+build_time: [546578345, 769355000]
+inputs:
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/cURL.swift": [546578339, 0]

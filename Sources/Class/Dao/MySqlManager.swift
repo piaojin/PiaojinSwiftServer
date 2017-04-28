@@ -25,6 +25,7 @@ class MySqlManager: NSObject {
     //执行数据库一些列操作的对象
     let dataMysql = MySQL()
     
+    //测试数据库是否可以连接成功,并执行一条查询语句
     public func useMysql(_ request: HTTPRequest, response: HTTPResponse) {
         
         /// MARK: 1.连接数据库

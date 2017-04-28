@@ -1,18 +1,18 @@
 //
-//  MainController.swift
+//  BaseController.swift
 //  PiaojinSwiftService
 //
-//  Created by 飘金 on 2017/4/26.
+//  Created by piaojin on 2017/4/26.
 //
 //
 
-import Foundation
 import PerfectHTTP
 /// 用于接受请求并根据请求创建响应内容的句柄函数格式。
 public typealias RequestHandler = (HTTPRequest, HTTPResponse) -> ()
 //创建一个类,类似springMVC中的控制器
-public class MainController : NSObject{
-    let requestHandler : RequestHandler = {
+class BaseController {
+    
+    let testRequestHandler : RequestHandler = {
         (request : HTTPRequest, response : HTTPResponse)
         in
         response.setBody(string: "路由句柄已经收到,hello piaojin!")
@@ -20,10 +20,14 @@ public class MainController : NSObject{
     }
     
     //路由,用于处理一个请求
-    public var testRoute : Routes = Routes()
+    public lazy var route : Routes = {
+        var tempRoute : Routes = Routes()
+        //add方法相当于添加一个拦截特定请求的方法
+        tempRoute.add(method: .get, uri: "/testRoutes", handler:self.testRequestHandler)
+        return tempRoute
+    }()
     
-    public override init() {
-        testRoute.add(method: .get, uri: "/testRoutes", handler:requestHandler)
-        super.init()
+    init() {
+        
     }
 }

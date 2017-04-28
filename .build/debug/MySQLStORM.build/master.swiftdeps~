@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "dd7b9fe71139eabc011460dc321cbc16"
+build_time: [546676104, 283951000]
+inputs:
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Convenience.swift": !dirty [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Delete.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Insert.swift": !dirty [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/MySQLConnect.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/MySQLStORM.swift": !dirty [546588060, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/parseRows.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Select.swift": !dirty [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/SQL.swift": !dirty [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Update.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Upsert.swift": !dirty [546578340, 0]

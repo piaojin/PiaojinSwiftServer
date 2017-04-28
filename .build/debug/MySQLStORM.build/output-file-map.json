@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/master.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Convenience.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Convenience.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Convenience.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Convenience~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Convenience.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Delete.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Delete.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Delete.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Delete~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Delete.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Insert.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Insert.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Insert.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Insert~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Insert.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/MySQLConnect.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/MySQLConnect.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/MySQLConnect.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/MySQLConnect~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/MySQLConnect.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/MySQLStORM.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/MySQLStORM.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/MySQLStORM.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/MySQLStORM~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/MySQLStORM.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/parseRows.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/parseRows.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/parseRows.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/parseRows~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/parseRows.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Select.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Select.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Select.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Select~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Select.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/SQL.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/SQL.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/SQL.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/SQL~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/SQL.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Update.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Update.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Update.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Update~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Update.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Upsert.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Upsert.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Upsert.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Upsert~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.build/Upsert.swiftdeps"
+  }
+}

@@ -14,6 +14,18 @@
       "version": "2.0.4"
     },
     {
+      "package": "MySQLStORM",
+      "reason": null,
+      "repositoryURL": "https://github.com/SwiftORM/MySQL-StORM.git",
+      "version": "1.0.9"
+    },
+    {
+      "package": "PerfectCURL",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-CURL.git",
+      "version": "2.0.7"
+    },
+    {
       "package": "PerfectCrypto",
       "reason": null,
       "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Crypto.git",
@@ -38,16 +50,52 @@
       "version": "2.0.9"
     },
     {
+      "package": "PerfectLogger",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Logger.git",
+      "version": "1.0.0"
+    },
+    {
       "package": "PerfectNet",
       "reason": null,
       "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Net.git",
       "version": "2.1.7"
     },
     {
+      "package": "PerfectSession",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Session.git",
+      "version": "0.0.8"
+    },
+    {
+      "package": "PerfectSessionMySQL",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Session-MySQL.git",
+      "version": "0.0.2"
+    },
+    {
       "package": "PerfectThread",
       "reason": null,
       "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Thread.git",
       "version": "2.0.9"
+    },
+    {
+      "package": "StORM",
+      "reason": null,
+      "repositoryURL": "https://github.com/SwiftORM/StORM.git",
+      "version": "1.0.3"
+    },
+    {
+      "package": "SwiftMoment",
+      "reason": null,
+      "repositoryURL": "https://github.com/iamjono/SwiftMoment.git",
+      "version": "0.9.1"
+    },
+    {
+      "package": "cURL",
+      "reason": null,
+      "repositoryURL": "https://github.com/PerfectlySoft/Perfect-libcurl.git",
+      "version": "2.0.2"
     },
     {
       "package": "mysqlclient",

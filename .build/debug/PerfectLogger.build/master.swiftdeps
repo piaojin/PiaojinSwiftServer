@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "96ad0f4448174e8bbd0908c78751a16c"
+build_time: [546578346, 754549000]
+inputs:
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/FileLogger.swift": [546578340, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/RemoteLogger.swift": [546578340, 0]

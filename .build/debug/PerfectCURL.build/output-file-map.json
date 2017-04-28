@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectCURL.build/master.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/cURL.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectCURL.build/cURL.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectCURL.build/cURL.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectCURL.build/cURL~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectCURL.build/cURL.swiftdeps"
+  }
+}

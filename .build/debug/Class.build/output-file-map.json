@@ -2,11 +2,17 @@
   "": {
     "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/master.swiftdeps"
   },
-  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Controller/MainController.swift": {
-    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainController.d",
-    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Controller/MainController.swift.o",
-    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainController~partial.swiftmodule",
-    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainController.swiftdeps"
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Controller/BaseController.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseController.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Controller/BaseController.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseController~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseController.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Controller/UserController.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserController.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Controller/UserController.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserController~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserController.swiftdeps"
   },
   "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Dao/MySqlManager.swift": {
     "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MySqlManager.d",
@@ -19,5 +25,41 @@
     "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Main/main.swift.o",
     "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/main~partial.swiftmodule",
     "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/main.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Model/BaseModel.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseModel.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Model/BaseModel.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseModel.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Model/UserModel.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserModel.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Model/UserModel.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserModel.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Service/UserService.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserService.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Service/UserService.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserService~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserService.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Tools/RequestParamsTool.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/RequestParamsTool.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Tools/RequestParamsTool.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/RequestParamsTool~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/RequestParamsTool.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Model/Protocol/ModelProtocol.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/ModelProtocol.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Model/Protocol/ModelProtocol.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/ModelProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/ModelProtocol.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Service/Impl/UserServiceImpl.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserServiceImpl.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Service/Impl/UserServiceImpl.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserServiceImpl~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserServiceImpl.swiftdeps"
   }
 }

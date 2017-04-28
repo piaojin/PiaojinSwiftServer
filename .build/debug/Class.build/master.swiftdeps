@@ -1,7 +1,14 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
-options: "1298e863351f00c0d7b107561d9241ae"
-build_time: [546527448, 761976000]
+options: "6f4f34bad97e81e48fb457d204062332"
+build_time: [546680012, 266773000]
 inputs:
-  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Controller/MainController.swift": [546526593, 0]
-  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Dao/MySqlManager.swift": [546515542, 0]
-  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Main/main.swift": [546526593, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Controller/BaseController.swift": [546600463, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Controller/UserController.swift": [546679921, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Dao/MySqlManager.swift": [546586879, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Main/main.swift": [546599917, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Model/BaseModel.swift": [546679921, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Model/UserModel.swift": [546679921, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Service/UserService.swift": [546599207, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Tools/RequestParamsTool.swift": [546679999, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Model/Protocol/ModelProtocol.swift": [546679921, 0]
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Service/Impl/UserServiceImpl.swift": [546599207, 0]
