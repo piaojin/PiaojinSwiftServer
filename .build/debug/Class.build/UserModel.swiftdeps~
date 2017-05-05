@@ -12,6 +12,7 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "..<"
 - "=="
+- !private ">"
 - "AssignmentPrecedence"
 - "BaseModel"
 - "Bool"
@@ -27,11 +28,13 @@ depends-top-level:
 - "UserModel"
 - !private "~="
 depends-member:
+- !private ["Ps9AnyObject", "Int"]
 - !private ["Ps9AnyObject", "UserModel"]
 - !private ["Ps9AnyObject", "data"]
 - !private ["Ps9AnyObject", "id"]
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "param"]
 - !private ["Ps9AnyObject", "pwd"]
 - !private ["Ps9AnyObject", "results"]
 - !private ["Ps9AnyObject", "role"]
@@ -50,6 +53,7 @@ depends-member:
 - ["C5Class9BaseModel", "id"]
 - ["C5Class9BaseModel", "init"]
 - ["C5Class9BaseModel", "name"]
+- !private ["C5Class9BaseModel", "param"]
 - ["C5Class9BaseModel", "pwd"]
 - !private ["C5Class9BaseModel", "results"]
 - ["C5Class9BaseModel", "role"]
@@ -63,6 +67,7 @@ depends-member:
 - !private ["Ps23BidirectionalCollection", "init"]
 - !private ["Ps23BidirectionalCollection", "subscript"]
 - !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps17BitwiseOperations", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Ps7CVarArg", "append"]
 - !private ["Ps7CVarArg", "count"]
@@ -109,6 +114,7 @@ depends-member:
 - !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
@@ -118,8 +124,11 @@ depends-member:
 - ["Ps8Hashable", "rawValue"]
 - ["Ps8Hashable", ""]
 - !private ["Si", "hashValue"]
+- !private ["Si", "init"]
 - !private ["Ps7Integer", "hashValue"]
+- !private ["Ps7Integer", "init"]
 - !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "init"]
 - !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
 - !private ["P10PerfectLib15JSONConvertible", "append"]
 - !private ["P10PerfectLib15JSONConvertible", "count"]
@@ -130,10 +139,12 @@ depends-member:
 - ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "hashValue"]
 - ["Ps10MirrorPath", "init"]
+- !private ["P5Class13ModelProtocol", "Int"]
 - !private ["P5Class13ModelProtocol", "UserModel"]
 - !private ["P5Class13ModelProtocol", "id"]
 - !private ["P5Class13ModelProtocol", "init"]
 - !private ["P5Class13ModelProtocol", "name"]
+- !private ["P5Class13ModelProtocol", "param"]
 - !private ["P5Class13ModelProtocol", "pwd"]
 - !private ["P5Class13ModelProtocol", "results"]
 - !private ["P5Class13ModelProtocol", "role"]
@@ -151,6 +162,7 @@ depends-member:
 - ["C10MySQLStORM10MySQLStORM", "id"]
 - ["C10MySQLStORM10MySQLStORM", "init"]
 - ["C10MySQLStORM10MySQLStORM", "name"]
+- !private ["C10MySQLStORM10MySQLStORM", "param"]
 - ["C10MySQLStORM10MySQLStORM", "pwd"]
 - !private ["C10MySQLStORM10MySQLStORM", "results"]
 - ["C10MySQLStORM10MySQLStORM", "role"]
@@ -190,7 +202,9 @@ depends-member:
 - !private ["Ps8Sequence", "init"]
 - !private ["Ps8Sequence", "subscript"]
 - !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps13SignedInteger", "init"]
 - !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
 - ["C5StORM5StORM", "Bool"]
 - ["C5StORM5StORM", "Int"]
 - ["C5StORM5StORM", "StORMRow"]
@@ -199,6 +213,7 @@ depends-member:
 - ["C5StORM5StORM", "id"]
 - ["C5StORM5StORM", "init"]
 - ["C5StORM5StORM", "name"]
+- !private ["C5StORM5StORM", "param"]
 - ["C5StORM5StORM", "pwd"]
 - !private ["C5StORM5StORM", "results"]
 - ["C5StORM5StORM", "role"]
@@ -206,10 +221,12 @@ depends-member:
 - ["C5StORM5StORM", "table"]
 - ["C5StORM5StORM", "to"]
 - ["C5StORM5StORM", "transformParams"]
+- !private ["P5StORM13StORMProtocol", "Int"]
 - !private ["P5StORM13StORMProtocol", "UserModel"]
 - !private ["P5StORM13StORMProtocol", "id"]
 - !private ["P5StORM13StORMProtocol", "init"]
 - !private ["P5StORM13StORMProtocol", "name"]
+- !private ["P5StORM13StORMProtocol", "param"]
 - !private ["P5StORM13StORMProtocol", "pwd"]
 - !private ["P5StORM13StORMProtocol", "results"]
 - !private ["P5StORM13StORMProtocol", "role"]
@@ -218,6 +235,7 @@ depends-member:
 - !private ["C5StORM14StORMResultSet", "rows"]
 - !private ["C5StORM8StORMRow", "data"]
 - !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
 - ["SS", "init"]
 - ["Ps16TextOutputStream", "init"]
 - ["Ps20TextOutputStreamable", "init"]
@@ -230,6 +248,7 @@ depends-member:
 - ["C5Class9UserModel", "id"]
 - ["C5Class9UserModel", "init"]
 - ["C5Class9UserModel", "name"]
+- !private ["C5Class9UserModel", "param"]
 - ["C5Class9UserModel", "pwd"]
 - !private ["C5Class9UserModel", "results"]
 - ["C5Class9UserModel", "role"]
@@ -252,6 +271,7 @@ depends-member:
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
@@ -264,6 +284,7 @@ depends-member:
 - ["Ps9_Hashable", "rawValue"]
 - ["Ps9_Hashable", ""]
 - !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "init"]
 - !private ["Ps10_Indexable", "append"]
 - !private ["Ps10_Indexable", "count"]
 - !private ["Ps10_Indexable", "init"]
@@ -273,7 +294,9 @@ depends-member:
 - !private ["Ps14_IndexableBase", "init"]
 - !private ["Ps14_IndexableBase", "subscript"]
 - !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps8_Integer", "init"]
 - !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "init"]
 - !private ["Ps17_MutableIndexable", "append"]
 - !private ["Ps17_MutableIndexable", "count"]
 - !private ["Ps17_MutableIndexable", "init"]
@@ -293,7 +316,9 @@ depends-member:
 - !private ["Ps26_RangeReplaceableIndexable", "init"]
 - !private ["Ps26_RangeReplaceableIndexable", "subscript"]
 - !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps14_SignedInteger", "init"]
 - !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
 - !private "Sa"
@@ -376,6 +401,17 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectHTTP.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
@@ -420,17 +456,6 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLib.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectNet.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectCrypto.swiftmodule"

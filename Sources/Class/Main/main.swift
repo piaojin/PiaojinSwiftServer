@@ -33,9 +33,6 @@ server.addRoutes(userController.route)
 // Set a listen port of 8080
 server.serverPort = 8080
 
-let userService : UserService = UserServiceImpl()
-let userModel = userService.userModel
-
 // Set a document root.
 // 这是可选的。如果你不想提供静态内容,不设置这个。设置文档根目录会自动添加一个静态文件处理程序 /**
 server.documentRoot = "./webroot"

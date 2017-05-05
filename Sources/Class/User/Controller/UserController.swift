@@ -20,7 +20,7 @@ class UserController : BaseController{
         in
         
         var userModel : UserModel = UserModel()
-        
+        debugPrint("收到来自:\(request.serverAddress.host)的请求!")
         if userModel.transformParams(params: request.params()){
             do{
                 try userModel.save()
@@ -30,6 +30,7 @@ class UserController : BaseController{
         }else{
             print("解析request参数失败!")
         }
+        
         
         response.completed()
     }

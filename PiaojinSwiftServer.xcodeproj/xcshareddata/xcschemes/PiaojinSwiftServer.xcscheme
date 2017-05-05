@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_870"
+               BlueprintIdentifier = "OBJ_878"
                BuildableName = "PerfectLib.framework"
                BlueprintName = "PerfectLib"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_886"
+               BlueprintIdentifier = "OBJ_894"
                BuildableName = "PerfectThread.framework"
                BlueprintName = "PerfectThread"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_895"
+               BlueprintIdentifier = "OBJ_903"
                BuildableName = "COpenSSL.framework"
                BlueprintName = "COpenSSL"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -56,7 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1583"
+               BlueprintIdentifier = "OBJ_1591"
                BuildableName = "PerfectCrypto.framework"
                BlueprintName = "PerfectCrypto"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -70,7 +70,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1602"
+               BlueprintIdentifier = "OBJ_1610"
                BuildableName = "PerfectNet.framework"
                BlueprintName = "PerfectNet"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -84,7 +84,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1623"
+               BlueprintIdentifier = "OBJ_1631"
                BuildableName = "PerfectHTTP.framework"
                BlueprintName = "PerfectHTTP"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -98,7 +98,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1648"
+               BlueprintIdentifier = "OBJ_1656"
                BuildableName = "CZlib.framework"
                BlueprintName = "CZlib"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -112,7 +112,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1682"
+               BlueprintIdentifier = "OBJ_1690"
                BuildableName = "PerfectHTTPServer.framework"
                BlueprintName = "PerfectHTTPServer"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -126,7 +126,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1711"
+               BlueprintIdentifier = "OBJ_1719"
                BuildableName = "CHTTPParser.framework"
                BlueprintName = "CHTTPParser"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -140,7 +140,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1732"
+               BlueprintIdentifier = "OBJ_1740"
                BuildableName = "MySQL.framework"
                BlueprintName = "MySQL"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -154,7 +154,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1739"
+               BlueprintIdentifier = "OBJ_1747"
                BuildableName = "TurnstileCrypto.framework"
                BlueprintName = "TurnstileCrypto"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -168,7 +168,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1760"
+               BlueprintIdentifier = "OBJ_1768"
                BuildableName = "PerfectSession.framework"
                BlueprintName = "PerfectSession"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -182,7 +182,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1786"
+               BlueprintIdentifier = "OBJ_1794"
                BuildableName = "PerfectSessionMySQL.framework"
                BlueprintName = "PerfectSessionMySQL"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -196,7 +196,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1812"
+               BlueprintIdentifier = "OBJ_1820"
                BuildableName = "StORM.framework"
                BlueprintName = "StORM"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -210,7 +210,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1831"
+               BlueprintIdentifier = "OBJ_1839"
                BuildableName = "SwiftMoment.framework"
                BlueprintName = "SwiftMoment"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -224,7 +224,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1843"
+               BlueprintIdentifier = "OBJ_1851"
                BuildableName = "PerfectCURL.framework"
                BlueprintName = "PerfectCURL"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -238,7 +238,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1860"
+               BlueprintIdentifier = "OBJ_1868"
                BuildableName = "PerfectLogger.framework"
                BlueprintName = "PerfectLogger"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -252,7 +252,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1882"
+               BlueprintIdentifier = "OBJ_1890"
                BuildableName = "MySQLStORM.framework"
                BlueprintName = "MySQLStORM"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -266,7 +266,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1918"
+               BlueprintIdentifier = "OBJ_1926"
                BuildableName = "Class"
                BlueprintName = "Class"
                ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">
@@ -297,7 +297,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_870"
+            BlueprintIdentifier = "OBJ_878"
             BuildableName = "PerfectLib.framework"
             BlueprintName = "PerfectLib"
             ReferencedContainer = "container:PiaojinSwiftServer.xcodeproj">

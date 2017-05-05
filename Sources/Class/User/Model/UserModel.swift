@@ -72,10 +72,8 @@ class UserModel : BaseModel{
         if let tempId = tempId{
             self.id = Int(tempId)
         }
-        
-        if let tempName = tempName{
-            self.name = tempName
-        }
+            
+        self.name = tempName ?? "no-name"
         
         if let tempPwd = tempPwd{
             self.pwd = tempPwd
@@ -84,6 +82,7 @@ class UserModel : BaseModel{
         if let tempRoleType = tempRoleType{
             self.role = Int(tempRoleType)!
         }
+        
          return true
     }
 }

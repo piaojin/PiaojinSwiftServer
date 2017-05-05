@@ -2,8 +2,6 @@
 provides-top-level:
 - "server"
 - "userController"
-- "userService"
-- "userModel"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
@@ -16,13 +14,9 @@ depends-top-level:
 - "StringLiteralType"
 - "UnicodeScalarType"
 - "UserController"
-- "UserService"
-- "UserServiceImpl"
 - "print"
 - "server"
 - "userController"
-- "userModel"
-- "userService"
 depends-member:
 - ["Ps9AnyObject", "addRoutes"]
 - ["Ps9AnyObject", "documentRoot"]
@@ -50,6 +44,7 @@ depends-member:
 - ["C17PerfectHTTPServer10HTTPServer", "start"]
 - ["Ps8Hashable", "init"]
 - ["P10PerfectLib15JSONConvertible", "init"]
+- ["P5Class17JSONSubscriptType", "init"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["Ps10MirrorPath", "init"]
 - ["PSo8NSCoding", "init"]
@@ -64,10 +59,6 @@ depends-member:
 - ["Ps20TextOutputStreamable", "init"]
 - ["C5Class14UserController", "init"]
 - ["C5Class14UserController", "route"]
-- ["P5Class11UserService", "init"]
-- ["P5Class11UserService", "userModel"]
-- ["C5Class15UserServiceImpl", "deinit"]
-- ["C5Class15UserServiceImpl", "init"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
@@ -93,6 +84,7 @@ depends-nominal:
 - "C17PerfectHTTPServer10HTTPServer"
 - "Ps8Hashable"
 - "P10PerfectLib15JSONConvertible"
+- "P5Class17JSONSubscriptType"
 - "Ps25LosslessStringConvertible"
 - "Ps10MirrorPath"
 - "PSo8NSCoding"
@@ -106,8 +98,6 @@ depends-nominal:
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
 - "C5Class14UserController"
-- "P5Class11UserService"
-- "C5Class15UserServiceImpl"
 - "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - "Ps34_ExpressibleByBuiltinStringLiteral"
 - "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
@@ -120,6 +110,17 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectHTTP.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
@@ -164,17 +165,6 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLib.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectNet.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectCrypto.swiftmodule"
@@ -208,4 +198,4 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zlib.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/czlib.h"
-interface-hash: "20c14476a8506afa6682aefc012d61bc"
+interface-hash: "c9b8705965dfa5127e0864149d5f3eb5"
