@@ -14,11 +14,29 @@
     "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/main~partial.swiftmodule",
     "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/main.swiftdeps"
   },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Common/Const/ResourceConst.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/ResourceConst.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Common/Const/ResourceConst.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/ResourceConst~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/ResourceConst.swiftdeps"
+  },
   "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Common/Tools/RequestParamsTool.swift": {
     "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/RequestParamsTool.d",
     "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Common/Tools/RequestParamsTool.swift.o",
     "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/RequestParamsTool~partial.swiftmodule",
     "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/RequestParamsTool.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Login/Controller/LoginController.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/LoginController.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Login/Controller/LoginController.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/LoginController~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/LoginController.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Login/PageHandler/WelcomePageHanler.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/WelcomePageHanler.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Login/PageHandler/WelcomePageHanler.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/WelcomePageHanler~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/WelcomePageHanler.swiftdeps"
   },
   "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Main/BaseController/BaseController.swift": {
     "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseController.d",
@@ -31,6 +49,12 @@
     "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Main/BaseModel/BaseModel.swift.o",
     "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseModel~partial.swiftmodule",
     "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseModel.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Main/BaseMustachePageHandler/BaseMustachePageHandler.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseMustachePageHandler.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Main/BaseMustachePageHandler/BaseMustachePageHandler.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseMustachePageHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseMustachePageHandler.swiftdeps"
   },
   "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/User/Controller/UserController.swift": {
     "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserController.d",

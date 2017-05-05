@@ -7,14 +7,208 @@ provides-member:
 - ["C5Class15LoginController", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "&&"
+- "=="
+- "AssignmentPrecedence"
+- "BaseController"
+- "HTTPRequest"
+- "HTTPResponse"
 - "LoginController"
+- "RequestHandler"
+- "ResourceConst"
+- "StaticFileHandler"
+- "StringLiteralType"
+- "UserModel"
+- "WelcomePageHanler"
+- "debugPrint"
+- "mustacheRequest"
+- "print"
 depends-member:
+- ["Ps9AnyObject", "ResourceConst"]
+- ["Ps9AnyObject", "StaticFileHandler"]
+- ["Ps9AnyObject", "UserModel"]
+- ["Ps9AnyObject", "WelcomePageHanler"]
+- ["Ps9AnyObject", "debugPrint"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loginRequestHandler"]
+- ["Ps9AnyObject", "mustacheRequest"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "pwd"]
+- !private ["Ps9AnyObject", "route"]
+- ["Ps9AnyObject", "transformParams"]
 - ["Ps9AnyObject", ""]
+- ["C5Class14BaseController", "HTTPRequest"]
+- ["C5Class14BaseController", "HTTPResponse"]
+- ["C5Class14BaseController", "RequestHandler"]
+- ["C5Class14BaseController", "ResourceConst"]
+- ["C5Class14BaseController", "StaticFileHandler"]
+- ["C5Class14BaseController", "UserModel"]
+- ["C5Class14BaseController", "WelcomePageHanler"]
+- ["C5Class14BaseController", "debugPrint"]
+- ["C5Class14BaseController", "init"]
+- ["C5Class14BaseController", "loginCheckRequestHandler"]
+- ["C5Class14BaseController", "loginRequestHandler"]
+- ["C5Class14BaseController", "mustacheRequest"]
+- ["C5Class14BaseController", "print"]
+- !private ["C5Class14BaseController", "route"]
+- ["C5Class14BaseController", ""]
+- ["C5Class9BaseModel", "init"]
+- ["C5Class9BaseModel", "name"]
+- ["C5Class9BaseModel", "pwd"]
+- ["C5Class9BaseModel", "transformParams"]
+- ["C5Class23BaseMustachePageHandler", "init"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Ps7CVarArg", "init"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "get"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "get"]
+- ["Ps9Equatable", "init"]
+- ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["O11PerfectHTTP10HTTPMethod", "get"]
+- ["P11PerfectHTTP11HTTPRequest", "params"]
+- ["P11PerfectHTTP11HTTPRequest", "path"]
+- ["P11PerfectHTTP12HTTPResponse", "appendBody"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "get"]
+- ["Ps8Hashable", "init"]
+- ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- ["P5Class17JSONSubscriptType", "init"]
+- ["C5Class15LoginController", "HTTPRequest"]
+- ["C5Class15LoginController", "HTTPResponse"]
+- ["C5Class15LoginController", "RequestHandler"]
+- ["C5Class15LoginController", "ResourceConst"]
+- ["C5Class15LoginController", "StaticFileHandler"]
+- ["C5Class15LoginController", "UserModel"]
+- ["C5Class15LoginController", "WelcomePageHanler"]
+- ["C5Class15LoginController", "debugPrint"]
 - ["C5Class15LoginController", "deinit"]
 - ["C5Class15LoginController", "init"]
+- ["C5Class15LoginController", "loginCheckRequestHandler"]
+- ["C5Class15LoginController", "loginRequestHandler"]
+- ["C5Class15LoginController", "mustacheRequest"]
+- ["C5Class15LoginController", "print"]
+- !private ["C5Class15LoginController", "route"]
+- ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["P5Class13ModelProtocol", "init"]
+- ["P5Class13ModelProtocol", "name"]
+- ["P5Class13ModelProtocol", "pwd"]
+- ["P5Class13ModelProtocol", "transformParams"]
+- ["P15PerfectMustache19MustachePageHandler", "init"]
+- ["C10MySQLStORM10MySQLStORM", "init"]
+- ["C10MySQLStORM10MySQLStORM", "name"]
+- ["C10MySQLStORM10MySQLStORM", "pwd"]
+- ["C10MySQLStORM10MySQLStORM", "transformParams"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["V5Class13ResourceConst", "login"]
+- ["V5Class13ResourceConst", "webRoot"]
+- ["V5Class13ResourceConst", "welcome"]
+- !private ["V11PerfectHTTP6Routes", "add"]
+- ["C5StORM5StORM", "init"]
+- ["C5StORM5StORM", "name"]
+- ["C5StORM5StORM", "pwd"]
+- ["C5StORM5StORM", "transformParams"]
+- ["P5StORM13StORMProtocol", "init"]
+- ["P5StORM13StORMProtocol", "name"]
+- ["P5StORM13StORMProtocol", "pwd"]
+- ["P5StORM13StORMProtocol", "transformParams"]
+- ["V11PerfectHTTP17StaticFileHandler", "handleRequest"]
+- ["V11PerfectHTTP17StaticFileHandler", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["C5Class9UserModel", "deinit"]
+- ["C5Class9UserModel", "init"]
+- ["C5Class9UserModel", "name"]
+- ["C5Class9UserModel", "pwd"]
+- ["C5Class9UserModel", "transformParams"]
+- ["C5Class17WelcomePageHanler", "deinit"]
+- ["C5Class17WelcomePageHanler", "init"]
+- ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "get"]
+- ["Ps9_Hashable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
+- "C5Class14BaseController"
+- "C5Class9BaseModel"
+- "C5Class23BaseMustachePageHandler"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "O11PerfectHTTP10HTTPMethod"
+- "P11PerfectHTTP11HTTPRequest"
+- "P11PerfectHTTP12HTTPResponse"
+- "Ps8Hashable"
+- "P10PerfectLib15JSONConvertible"
+- "P5Class17JSONSubscriptType"
 - "C5Class15LoginController"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "P5Class13ModelProtocol"
+- "P15PerfectMustache19MustachePageHandler"
+- "C10MySQLStORM10MySQLStORM"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "V5Class13ResourceConst"
+- !private "V11PerfectHTTP6Routes"
+- "C5StORM5StORM"
+- "P5StORM13StORMProtocol"
+- "V11PerfectHTTP17StaticFileHandler"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C5Class9UserModel"
+- "C5Class17WelcomePageHanler"
+- "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
@@ -93,6 +287,7 @@ depends-external:
 - "/usr/local/Cellar/mysql/5.7.18/include/mysql/mysql_version.h"
 - "/usr/local/include/mysql/mysql.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417/module.modulemap"
+- "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectMustache.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectCURL.swiftmodule"
@@ -107,4 +302,4 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zlib.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/czlib.h"
-interface-hash: "4dc6374c0560feb21b0af3d4bebc6e0a"
+interface-hash: "47610a079ae4dfccfeacea13a08f4f27"

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectMustache.build/master.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-Mustache.git-4271886153857801499/Sources/Mustache.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectMustache.build/Mustache.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectMustache.build/Mustache.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectMustache.build/Mustache~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectMustache.build/Mustache.swiftdeps"
+  }
+}

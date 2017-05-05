@@ -2,18 +2,27 @@
 provides-top-level:
 - "server"
 - "userController"
+- "loginController"
+- "dir"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "!"
 - "AssignmentPrecedence"
+- "Dir"
 - "FloatLiteralType"
 - "HTTPServer"
 - "IntegerLiteralType"
+- "LoginController"
 - "PerfectError"
+- "ResourceConst"
 - "StringLiteralType"
 - "UnicodeScalarType"
 - "UserController"
+- "debugPrint"
+- "dir"
+- "loginController"
 - "print"
 - "server"
 - "userController"
@@ -26,14 +35,23 @@ depends-member:
 - ["Ps9AnyObject", "start"]
 - ["C5Class14BaseController", "init"]
 - ["C5Class14BaseController", "route"]
+- ["Sb", "_getBuiltinLogicValue"]
 - ["Ps7CVarArg", "init"]
 - ["Ps10Comparable", "init"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps23CustomStringConvertible", "init"]
+- ["V10PerfectLib3Dir", "create"]
+- ["V10PerfectLib3Dir", "exists"]
+- ["V10PerfectLib3Dir", "init"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
 - ["Ps9Equatable", "init"]
 - ["Ps5Error", "networkError"]
+- ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
@@ -42,8 +60,14 @@ depends-member:
 - ["C17PerfectHTTPServer10HTTPServer", "init"]
 - ["C17PerfectHTTPServer10HTTPServer", "serverPort"]
 - ["C17PerfectHTTPServer10HTTPServer", "start"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
 - ["Ps8Hashable", "init"]
+- ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
 - ["P10PerfectLib15JSONConvertible", "init"]
+- ["P5Class17JSONSubscriptType", "init"]
+- ["C5Class15LoginController", "init"]
+- ["C5Class15LoginController", "route"]
+- ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["Ps10MirrorPath", "init"]
 - ["PSo8NSCoding", "init"]
@@ -53,36 +77,45 @@ depends-member:
 - ["PSo14NSSecureCoding", "init"]
 - ["CSo8NSString", "init"]
 - ["O10PerfectLib12PerfectError", "networkError"]
+- ["V5Class13ResourceConst", "webRoot"]
 - ["SS", "init"]
 - ["Ps16TextOutputStream", "init"]
 - ["Ps20TextOutputStreamable", "init"]
 - ["C5Class14UserController", "init"]
 - ["C5Class14UserController", "route"]
+- ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - ["Ps33_ExpressibleByStringInterpolation", "init"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - ["Ps9_Hashable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
 - "C5Class14BaseController"
+- "Sb"
 - "Ps7CVarArg"
 - "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
+- "V10PerfectLib3Dir"
 - "Ps9Equatable"
 - "Ps5Error"
+- "Ps27ExpressibleByBooleanLiteral"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
 - "C17PerfectHTTPServer10HTTPServer"
 - "Ps8Hashable"
 - "P10PerfectLib15JSONConvertible"
+- "P5Class17JSONSubscriptType"
+- "C5Class15LoginController"
 - "Ps25LosslessStringConvertible"
 - "Ps10MirrorPath"
 - "PSo8NSCoding"
@@ -92,10 +125,12 @@ depends-nominal:
 - "PSo14NSSecureCoding"
 - "CSo8NSString"
 - "O10PerfectLib12PerfectError"
+- "V5Class13ResourceConst"
 - "SS"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
 - "C5Class14UserController"
+- "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - "Ps34_ExpressibleByBuiltinStringLiteral"
 - "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
@@ -182,6 +217,7 @@ depends-external:
 - "/usr/local/Cellar/mysql/5.7.18/include/mysql/mysql_version.h"
 - "/usr/local/include/mysql/mysql.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417/module.modulemap"
+- "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectMustache.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectCURL.swiftmodule"
@@ -196,4 +232,4 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zlib.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/czlib.h"
-interface-hash: "c9b8705965dfa5127e0864149d5f3eb5"
+interface-hash: "f5ee0288400536c47940d5aece2c713b"

@@ -7,22 +7,29 @@ provides-member:
 - ["C5Class14UserController", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
 - "BaseController"
 - "HTTPRequest"
 - "HTTPResponse"
 - "RequestHandler"
+- "StaticFileHandler"
 - "StringLiteralType"
 - "UserController"
 - "UserModel"
 - "UserService"
 - !private "UserServiceImpl"
+- "debugPrint"
 - "print"
+- "routeTrailingWildcardKey"
 depends-member:
+- ["Ps9AnyObject", "StaticFileHandler"]
 - ["Ps9AnyObject", "UserModel"]
 - !private ["Ps9AnyObject", "UserServiceImpl"]
+- ["Ps9AnyObject", "debugPrint"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "route"]
+- ["Ps9AnyObject", "routeTrailingWildcardKey"]
 - ["Ps9AnyObject", "save"]
 - !private ["Ps9AnyObject", "saveUserRequestHandler"]
 - ["Ps9AnyObject", "transformParams"]
@@ -30,12 +37,15 @@ depends-member:
 - ["C5Class14BaseController", "HTTPRequest"]
 - ["C5Class14BaseController", "HTTPResponse"]
 - ["C5Class14BaseController", "RequestHandler"]
+- ["C5Class14BaseController", "StaticFileHandler"]
 - ["C5Class14BaseController", "UserModel"]
 - ["C5Class14BaseController", "UserService"]
 - !private ["C5Class14BaseController", "UserServiceImpl"]
+- ["C5Class14BaseController", "debugPrint"]
 - ["C5Class14BaseController", "init"]
 - ["C5Class14BaseController", "print"]
 - !private ["C5Class14BaseController", "route"]
+- ["C5Class14BaseController", "routeTrailingWildcardKey"]
 - ["C5Class14BaseController", "saveUserRequestHandler"]
 - ["C5Class14BaseController", "userService"]
 - ["C5Class14BaseController", "userService.storage"]
@@ -45,30 +55,41 @@ depends-member:
 - ["C5Class9BaseModel", "transformParams"]
 - ["Sb", "_getBuiltinLogicValue"]
 - ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "subscript"]
+- ["Ps10Collection", "subscript"]
 - ["Ps10Comparable", "init"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "subscript"]
 - ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
 - ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "subscript"]
 - ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "get"]
 - ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "subscript"]
+- ["Vs10Dictionary", "subscript"]
 - ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "get"]
 - ["Ps9Equatable", "init"]
 - ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["O11PerfectHTTP10HTTPMethod", "get"]
 - ["P11PerfectHTTP11HTTPRequest", "params"]
+- ["P11PerfectHTTP11HTTPRequest", "path"]
+- ["P11PerfectHTTP11HTTPRequest", "urlVariables"]
 - ["P11PerfectHTTP12HTTPResponse", "completed"]
 - ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "get"]
 - ["Ps8Hashable", "init"]
 - ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
 - ["P10PerfectLib15JSONConvertible", "init"]
+- ["P10PerfectLib15JSONConvertible", "subscript"]
+- ["P5Class17JSONSubscriptType", "init"]
 - ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["Ps10MirrorPath", "init"]
@@ -85,25 +106,31 @@ depends-member:
 - ["PSo14NSSecureCoding", "init"]
 - ["CSo8NSString", "init"]
 - !private ["V11PerfectHTTP6Routes", "add"]
+- ["Ps8Sequence", "subscript"]
 - ["C5StORM5StORM", "init"]
 - ["C5StORM5StORM", "save"]
 - ["C5StORM5StORM", "transformParams"]
 - ["P5StORM13StORMProtocol", "init"]
 - ["P5StORM13StORMProtocol", "save"]
 - ["P5StORM13StORMProtocol", "transformParams"]
+- ["V11PerfectHTTP17StaticFileHandler", "handleRequest"]
+- ["V11PerfectHTTP17StaticFileHandler", "init"]
 - ["SS", "init"]
 - ["Ps16TextOutputStream", "init"]
 - ["Ps20TextOutputStreamable", "init"]
 - ["C5Class14UserController", "HTTPRequest"]
 - ["C5Class14UserController", "HTTPResponse"]
 - ["C5Class14UserController", "RequestHandler"]
+- ["C5Class14UserController", "StaticFileHandler"]
 - ["C5Class14UserController", "UserModel"]
 - ["C5Class14UserController", "UserService"]
 - !private ["C5Class14UserController", "UserServiceImpl"]
+- ["C5Class14UserController", "debugPrint"]
 - ["C5Class14UserController", "deinit"]
 - ["C5Class14UserController", "init"]
 - ["C5Class14UserController", "print"]
 - !private ["C5Class14UserController", "route"]
+- ["C5Class14UserController", "routeTrailingWildcardKey"]
 - ["C5Class14UserController", "saveUserRequestHandler"]
 - ["C5Class14UserController", "userService"]
 - !private ["C5Class14UserController", "userService.storage"]
@@ -124,21 +151,27 @@ depends-member:
 - ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps9_Hashable", "get"]
 - ["Ps9_Hashable", "init"]
+- ["Ps10_Indexable", "subscript"]
+- ["Ps14_IndexableBase", "subscript"]
 - ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "subscript"]
 depends-nominal:
 - "Ps9AnyObject"
 - "C5Class14BaseController"
 - "C5Class9BaseModel"
 - "Sb"
 - "Ps7CVarArg"
+- "Ps10Collection"
 - "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
 - "Ps9Equatable"
 - "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
@@ -147,6 +180,7 @@ depends-nominal:
 - "P11PerfectHTTP12HTTPResponse"
 - "Ps8Hashable"
 - "P10PerfectLib15JSONConvertible"
+- "P5Class17JSONSubscriptType"
 - "Ps25LosslessStringConvertible"
 - "Ps10MirrorPath"
 - "P5Class13ModelProtocol"
@@ -158,8 +192,10 @@ depends-nominal:
 - "PSo14NSSecureCoding"
 - "CSo8NSString"
 - !private "V11PerfectHTTP6Routes"
+- "Ps8Sequence"
 - "C5StORM5StORM"
 - "P5StORM13StORMProtocol"
+- "V11PerfectHTTP17StaticFileHandler"
 - "SS"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
@@ -175,6 +211,8 @@ depends-nominal:
 - "Ps33_ExpressibleByStringInterpolation"
 - "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
 - "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
@@ -268,4 +306,4 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zlib.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/czlib.h"
-interface-hash: "641615da18264ecc0e9c4eb545d1e4e1"
+interface-hash: "3ec8886d5c43cb239327921b440977c2"

@@ -20,10 +20,10 @@ class UserController : BaseController{
         in
         
         var userModel : UserModel = UserModel()
-        debugPrint("收到来自:\(request.serverAddress.host)的请求!")
         if userModel.transformParams(params: request.params()){
             do{
                 try userModel.save()
+                debugPrint("保存用户成功!")
             }catch{
                 print("添加用户失败:\(error)")
             }

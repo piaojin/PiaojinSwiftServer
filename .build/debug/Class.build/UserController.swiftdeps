@@ -66,7 +66,6 @@ depends-member:
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["O11PerfectHTTP10HTTPMethod", "get"]
 - ["P11PerfectHTTP11HTTPRequest", "params"]
-- ["P11PerfectHTTP11HTTPRequest", "serverAddress"]
 - ["P11PerfectHTTP12HTTPResponse", "completed"]
 - ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "get"]
@@ -275,4 +274,4 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zlib.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/czlib.h"
-interface-hash: "590952aae1fc714954ada349997a307b"
+interface-hash: "b6f95b8e7205f85f98f4296c6cf3c306"
