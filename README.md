@@ -74,4 +74,4 @@ do {<br>
     print("Network error thrown: \(err) \(msg)")<br>
 }<br>
 任何疑问发邮件:(804488815@qq.com)<br>
-# 备注:在编译的过程中很容易出错,个人建议使用命令行编译,链接再用Xcode打开运行,每次修改后如果是小修改可以直接Xcode编译运行,如果是大修改,引入其他模块最好用命令行编译,命令行编译可以去官方网站查阅,此处不做重复工作.需要注意Swift Package的管理方式,可以去http://www.jianshu.com/p/a5daea3ef144<br>查看,遇到the package has an unsupported layout问题一样可以查看前面的文章(复制黏贴别人的😝,福建文档写的最烂的男人是也!).
+# 备注:在编译的过程中很容易出错,个人建议使用命令行编译,链接再用Xcode打开运行,每次修改后如果是小修改可以直接Xcode编译运行,如果是大修改,例如:添加文件,引入其他模块最好用命令行编译,命令行编译可以去官方网站查阅,此处不做重复工作.如果Xcode编译时报错不知道哪里错误,还是得命令行在编译试试.需要注意Swift Package的管理方式,可以去http://www.jianshu.com/p/a5daea3ef144<br>查看,遇到the package has an unsupported layout问题一样可以查看前面的文章(复制黏贴别人的😝,福建文档写的最烂的男人是也!).
