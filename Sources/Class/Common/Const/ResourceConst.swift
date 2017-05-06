@@ -17,4 +17,6 @@ struct ResourceConst {
     static let welcome : String = "Pages/welcome.html"
     //404页面
     static let page404 : String = "Pages/404.html"
+    //添加用户
+    static let addUser : String = "Pages/addUser.html"
 }

@@ -13,7 +13,7 @@ depends-top-level:
 - "HTTPResponse"
 - "MainRequestFilter"
 - !private "StringLiteralType"
-- !private "print"
+- !private "debugPrint"
 depends-member:
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps7CVarArg", "init"]
@@ -26,8 +26,9 @@ depends-member:
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["P11PerfectHTTP11HTTPRequest", "path"]
+- !private ["P11PerfectHTTP17HTTPRequestFilter", "debugPrint"]
 - ["P11PerfectHTTP17HTTPRequestFilter", "filter"]
-- !private ["P11PerfectHTTP17HTTPRequestFilter", "print"]
 - ["P11PerfectHTTP17HTTPRequestFilter", ""]
 - !private ["O11PerfectHTTP23HTTPRequestFilterResult", "continue"]
 - !private ["Ps8Hashable", "init"]
@@ -37,10 +38,10 @@ depends-member:
 - ["V5Class17MainRequestFilter", "HTTPRequest"]
 - ["V5Class17MainRequestFilter", "HTTPRequestFilterResult"]
 - ["V5Class17MainRequestFilter", "HTTPResponse"]
+- !private ["V5Class17MainRequestFilter", "debugPrint"]
 - ["V5Class17MainRequestFilter", "deinit"]
 - ["V5Class17MainRequestFilter", "filter"]
 - ["V5Class17MainRequestFilter", "init"]
-- !private ["V5Class17MainRequestFilter", "print"]
 - !private ["Ps10MirrorPath", "init"]
 - !private ["PSo8NSCoding", "init"]
 - !private ["PSo9NSCopying", "init"]
@@ -71,6 +72,7 @@ depends-nominal:
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P11PerfectHTTP11HTTPRequest"
 - "P11PerfectHTTP17HTTPRequestFilter"
 - !private "O11PerfectHTTP23HTTPRequestFilterResult"
 - !private "Ps8Hashable"

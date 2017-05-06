@@ -11,8 +11,10 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "!"
+- "Array"
 - "AssignmentPrecedence"
 - "Dir"
+- "Filter404"
 - "FloatLiteralType"
 - "HTTPFilterPriority"
 - "HTTPRequestFilter"
@@ -67,6 +69,8 @@ depends-member:
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["V5Class9Filter404", "deinit"]
+- ["V5Class9Filter404", "init"]
 - ["O11PerfectHTTP18HTTPFilterPriority", "high"]
 - ["P11PerfectHTTP17HTTPRequestFilter", "init"]
 - ["P11PerfectHTTP18HTTPResponseFilter", "init"]
@@ -134,6 +138,7 @@ depends-nominal:
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
+- "V5Class9Filter404"
 - "O11PerfectHTTP18HTTPFilterPriority"
 - "P11PerfectHTTP17HTTPRequestFilter"
 - "P11PerfectHTTP18HTTPResponseFilter"
@@ -260,4 +265,4 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zlib.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/czlib.h"
-interface-hash: "938d770215abafd04e0a84799267ece7"
+interface-hash: "aaa50d57cf724f500d0d619b1e3a4f24"

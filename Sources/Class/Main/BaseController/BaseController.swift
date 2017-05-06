@@ -15,11 +15,23 @@ class BaseController {
     let mainRequestHandler : RequestHandler = {
         (request : HTTPRequest, response : HTTPResponse)
         in
-//        response.setBody(string: "路由句柄已经收到,hello piaojin!")
-//        response.completed()
-        
         // 获得符合通配符的请求路径
         request.path = ResourceConst.index
+        debugPrint(request.path)
+        // 用文档根目录初始化静态文件句柄
+        let handler = StaticFileHandler(documentRoot: ResourceConst.webRoot)
+        // 用我们的根目录和路径
+        // 修改集触发请求的句柄
+        handler.handleRequest(request: request, response: response)
+    }
+    
+    //用于全局跳转到指定的页面
+    let redirectRequestHandler : RequestHandler = {
+        (request : HTTPRequest, response : HTTPResponse)
+        in
+        
+        request.path = "Pages/" + request.path
+        debugPrint(request.path)
         // 用文档根目录初始化静态文件句柄
         let handler = StaticFileHandler(documentRoot: ResourceConst.webRoot)
         // 用我们的根目录和路径
@@ -33,6 +45,7 @@ class BaseController {
         //add方法相当于添加一个拦截特定请求的方法
         tempRoute.add(method: .get, uri: "/", handler:self.mainRequestHandler)
         tempRoute.add(method: .get, uri: "/index.html", handler:self.mainRequestHandler)
+        tempRoute.add(method: .get, uri: "/*", handler:self.redirectRequestHandler)
         return tempRoute
     }()
     

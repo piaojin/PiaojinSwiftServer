@@ -17,13 +17,11 @@ depends-top-level:
 - "UserService"
 - !private "UserServiceImpl"
 - "debugPrint"
-- "print"
 depends-member:
 - ["Ps9AnyObject", "UserModel"]
 - !private ["Ps9AnyObject", "UserServiceImpl"]
 - ["Ps9AnyObject", "debugPrint"]
 - ["Ps9AnyObject", "init"]
-- ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "route"]
 - ["Ps9AnyObject", "save"]
 - !private ["Ps9AnyObject", "saveUserRequestHandler"]
@@ -37,7 +35,6 @@ depends-member:
 - !private ["C5Class14BaseController", "UserServiceImpl"]
 - ["C5Class14BaseController", "debugPrint"]
 - ["C5Class14BaseController", "init"]
-- ["C5Class14BaseController", "print"]
 - !private ["C5Class14BaseController", "route"]
 - ["C5Class14BaseController", "saveUserRequestHandler"]
 - ["C5Class14BaseController", "userService"]
@@ -107,7 +104,6 @@ depends-member:
 - ["C5Class14UserController", "debugPrint"]
 - ["C5Class14UserController", "deinit"]
 - ["C5Class14UserController", "init"]
-- ["C5Class14UserController", "print"]
 - !private ["C5Class14UserController", "route"]
 - ["C5Class14UserController", "saveUserRequestHandler"]
 - ["C5Class14UserController", "userService"]
@@ -275,4 +271,4 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zlib.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/czlib.h"
-interface-hash: "b6f95b8e7205f85f98f4296c6cf3c306"
+interface-hash: "960d047fbf4b228808a2b6d22882e937"

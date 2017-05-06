@@ -24,13 +24,14 @@ class UserController : BaseController{
             do{
                 try userModel.save()
                 debugPrint("保存用户成功!")
+                response.appendBody(string:"保存用户成功!")
             }catch{
-                print("添加用户失败:\(error)")
+                debugPrint("添加用户失败:\(error)")
+                response.appendBody(string:"添加用户失败:\(error)")
             }
         }else{
-            print("解析request参数失败!")
+            debugPrint("解析request参数失败!")
         }
-        
         
         response.completed()
     }

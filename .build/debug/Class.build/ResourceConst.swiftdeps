@@ -37,8 +37,11 @@ depends-member:
 - ["CSo8NSString", "init"]
 - ["V5Class13ResourceConst", "NSHomeDirectory"]
 - ["V5Class13ResourceConst", "String"]
+- ["V5Class13ResourceConst", "addUser"]
+- ["V5Class13ResourceConst", "index"]
 - ["V5Class13ResourceConst", "init"]
 - ["V5Class13ResourceConst", "login"]
+- ["V5Class13ResourceConst", "page404"]
 - ["V5Class13ResourceConst", "webRoot"]
 - ["V5Class13ResourceConst", "welcome"]
 - ["SS", "init"]
@@ -180,4 +183,4 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zlib.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/czlib.h"
-interface-hash: "ca5b0b4b0fb3b7842dd59b9c15c0a4c5"
+interface-hash: "1b4a6afae1af6c5b5759fe681a0689b5"

@@ -1,6 +1,7 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "server"
+- "baseController"
 - "userController"
 - "loginController"
 - "requestFilters"
@@ -13,6 +14,7 @@ depends-top-level:
 - "!"
 - "Array"
 - "AssignmentPrecedence"
+- "BaseController"
 - "Dir"
 - "Filter404"
 - "FloatLiteralType"
@@ -29,6 +31,7 @@ depends-top-level:
 - "StringLiteralType"
 - "UnicodeScalarType"
 - "UserController"
+- "baseController"
 - "debugPrint"
 - "dir"
 - "loginController"
@@ -265,4 +268,4 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zlib.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/czlib.h"
-interface-hash: "aaa50d57cf724f500d0d619b1e3a4f24"
+interface-hash: "d9ea61bc838e7aba1981d3785eaf6ddc"
