@@ -13,6 +13,7 @@ depends-top-level:
 - !private "..<"
 - "=="
 - !private ">"
+- !private "??"
 - "AssignmentPrecedence"
 - "BaseModel"
 - "Bool"
@@ -135,6 +136,8 @@ depends-member:
 - !private ["P10PerfectLib15JSONConvertible", "hashValue"]
 - ["P10PerfectLib15JSONConvertible", "init"]
 - !private ["P10PerfectLib15JSONConvertible", "subscript"]
+- !private ["P5Class17JSONSubscriptType", "hashValue"]
+- ["P5Class17JSONSubscriptType", "init"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "hashValue"]
@@ -347,6 +350,7 @@ depends-nominal:
 - !private "Ps7Integer"
 - !private "Ps17IntegerArithmetic"
 - "P10PerfectLib15JSONConvertible"
+- "P5Class17JSONSubscriptType"
 - "Ps25LosslessStringConvertible"
 - "Ps10MirrorPath"
 - "P5Class13ModelProtocol"
@@ -475,6 +479,7 @@ depends-external:
 - "/usr/local/Cellar/mysql/5.7.18/include/mysql/mysql_version.h"
 - "/usr/local/include/mysql/mysql.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417/module.modulemap"
+- "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectMustache.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/MySQLStORM.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectLogger.swiftmodule"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/PerfectCURL.swiftmodule"

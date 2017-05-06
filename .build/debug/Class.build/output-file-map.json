@@ -56,6 +56,24 @@
     "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseMustachePageHandler~partial.swiftmodule",
     "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/BaseMustachePageHandler.swiftdeps"
   },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Main/RequestFilter/MainRequestFilter.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainRequestFilter.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Main/RequestFilter/MainRequestFilter.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainRequestFilter~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainRequestFilter.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Main/ResponseFilter/Filter404.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Filter404.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Main/ResponseFilter/Filter404.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Filter404~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Filter404.swiftdeps"
+  },
+  "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/Main/ResponseFilter/MainResponseFilter.swift": {
+    "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainResponseFilter.d",
+    "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/Main/ResponseFilter/MainResponseFilter.swift.o",
+    "swiftmodule": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainResponseFilter~partial.swiftmodule",
+    "swift-dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/MainResponseFilter.swiftdeps"
+  },
   "/Users/piaojin/Desktop/PiaojinSwiftServer/Sources/Class/User/Controller/UserController.swift": {
     "dependencies": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/UserController.d",
     "object": "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/debug/Class.build/User/Controller/UserController.swift.o",

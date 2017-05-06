@@ -8,6 +8,7 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "&&"
+- "+"
 - "=="
 - "AssignmentPrecedence"
 - "BaseController"
@@ -30,6 +31,7 @@ depends-member:
 - ["Ps9AnyObject", "WelcomePageHanler"]
 - ["Ps9AnyObject", "debugPrint"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loginCheckRequestHandler"]
 - !private ["Ps9AnyObject", "loginRequestHandler"]
 - ["Ps9AnyObject", "mustacheRequest"]
 - ["Ps9AnyObject", "name"]
@@ -69,20 +71,24 @@ depends-member:
 - ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps23CustomStringConvertible", "get"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "post"]
 - ["Ps9Equatable", "_getBuiltinLogicValue"]
 - !private ["Ps9Equatable", "get"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "post"]
 - ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["O11PerfectHTTP10HTTPMethod", "get"]
+- !private ["O11PerfectHTTP10HTTPMethod", "post"]
 - ["P11PerfectHTTP11HTTPRequest", "params"]
 - ["P11PerfectHTTP11HTTPRequest", "path"]
 - ["P11PerfectHTTP12HTTPResponse", "appendBody"]
 - ["Ps8Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps8Hashable", "get"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "post"]
 - ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
 - ["P10PerfectLib15JSONConvertible", "init"]
 - ["P5Class17JSONSubscriptType", "init"]
@@ -153,6 +159,7 @@ depends-member:
 - ["Ps9_Hashable", "_getBuiltinLogicValue"]
 - !private ["Ps9_Hashable", "get"]
 - ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "post"]
 - ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
@@ -302,4 +309,4 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zlib.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/czlib.h"
-interface-hash: "47610a079ae4dfccfeacea13a08f4f27"
+interface-hash: "3a12c9dcbe8c57768b31c697b2bee6f2"

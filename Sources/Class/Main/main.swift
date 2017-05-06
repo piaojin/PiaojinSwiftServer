@@ -26,13 +26,26 @@ import PerfectHTTPServer
 let server = HTTPServer()
 
 /// MARK: 第2步创建一个路由管理控制器相当于springMVC中的控制器(自定义,可以直接跳过,直接创建路由)
+let baseController : BaseController = BaseController()
 let userController : UserController = UserController()
-
 let loginController : LoginController = LoginController()
 
 /// MARK: 第3步在服务器上注册路由,路由的注册必须在服务器启动之前(server.start())
+server.addRoutes(baseController.route)
 server.addRoutes(userController.route)
 server.addRoutes(loginController.route)
+
+//添加请求过滤器
+let requestFilters: [(HTTPRequestFilter, HTTPFilterPriority)] = [
+    (MainRequestFilter(), HTTPFilterPriority.high)]
+server.setRequestFilters(requestFilters)
+
+//添加响应过滤器
+let responseFilters: [(HTTPResponseFilter, HTTPFilterPriority)] = [
+    (MainResponseFilter(), HTTPFilterPriority.high)]
+server.setResponseFilters(responseFilters)
+//添加404过滤器
+server.setResponseFilters([(Filter404(), .high)])
 
 // Set a listen port of 8080
 server.serverPort = 8080

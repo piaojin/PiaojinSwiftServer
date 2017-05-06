@@ -3,18 +3,27 @@ provides-top-level:
 - "server"
 - "userController"
 - "loginController"
+- "requestFilters"
+- "responseFilters"
 - "dir"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "!"
+- "Array"
 - "AssignmentPrecedence"
 - "Dir"
+- "Filter404"
 - "FloatLiteralType"
+- "HTTPFilterPriority"
+- "HTTPRequestFilter"
+- "HTTPResponseFilter"
 - "HTTPServer"
 - "IntegerLiteralType"
 - "LoginController"
+- "MainRequestFilter"
+- "MainResponseFilter"
 - "PerfectError"
 - "ResourceConst"
 - "StringLiteralType"
@@ -24,6 +33,8 @@ depends-top-level:
 - "dir"
 - "loginController"
 - "print"
+- "requestFilters"
+- "responseFilters"
 - "server"
 - "userController"
 depends-member:
@@ -32,6 +43,8 @@ depends-member:
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "route"]
 - ["Ps9AnyObject", "serverPort"]
+- ["Ps9AnyObject", "setRequestFilters"]
+- ["Ps9AnyObject", "setResponseFilters"]
 - ["Ps9AnyObject", "start"]
 - ["C5Class14BaseController", "init"]
 - ["C5Class14BaseController", "route"]
@@ -49,18 +62,27 @@ depends-member:
 - ["V10PerfectLib3Dir", "exists"]
 - ["V10PerfectLib3Dir", "init"]
 - ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "high"]
 - ["Ps9Equatable", "init"]
 - ["Ps5Error", "networkError"]
 - ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["V5Class9Filter404", "deinit"]
+- ["V5Class9Filter404", "init"]
+- ["O11PerfectHTTP18HTTPFilterPriority", "high"]
+- ["P11PerfectHTTP17HTTPRequestFilter", "init"]
+- ["P11PerfectHTTP18HTTPResponseFilter", "init"]
 - ["C17PerfectHTTPServer10HTTPServer", "addRoutes"]
 - ["C17PerfectHTTPServer10HTTPServer", "documentRoot"]
 - ["C17PerfectHTTPServer10HTTPServer", "init"]
 - ["C17PerfectHTTPServer10HTTPServer", "serverPort"]
+- ["C17PerfectHTTPServer10HTTPServer", "setRequestFilters"]
+- ["C17PerfectHTTPServer10HTTPServer", "setResponseFilters"]
 - ["C17PerfectHTTPServer10HTTPServer", "start"]
 - ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "high"]
 - ["Ps8Hashable", "init"]
 - ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
 - ["P10PerfectLib15JSONConvertible", "init"]
@@ -69,6 +91,10 @@ depends-member:
 - ["C5Class15LoginController", "route"]
 - ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - ["Ps25LosslessStringConvertible", "init"]
+- ["V5Class17MainRequestFilter", "deinit"]
+- ["V5Class17MainRequestFilter", "init"]
+- ["V5Class18MainResponseFilter", "deinit"]
+- ["V5Class18MainResponseFilter", "init"]
 - ["Ps10MirrorPath", "init"]
 - ["PSo8NSCoding", "init"]
 - ["PSo9NSCopying", "init"]
@@ -91,6 +117,7 @@ depends-member:
 - ["Ps33_ExpressibleByStringInterpolation", "init"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "high"]
 - ["Ps9_Hashable", "init"]
 - ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
@@ -111,12 +138,18 @@ depends-nominal:
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
+- "V5Class9Filter404"
+- "O11PerfectHTTP18HTTPFilterPriority"
+- "P11PerfectHTTP17HTTPRequestFilter"
+- "P11PerfectHTTP18HTTPResponseFilter"
 - "C17PerfectHTTPServer10HTTPServer"
 - "Ps8Hashable"
 - "P10PerfectLib15JSONConvertible"
 - "P5Class17JSONSubscriptType"
 - "C5Class15LoginController"
 - "Ps25LosslessStringConvertible"
+- "V5Class17MainRequestFilter"
+- "V5Class18MainResponseFilter"
 - "Ps10MirrorPath"
 - "PSo8NSCoding"
 - "PSo9NSCopying"
@@ -232,4 +265,4 @@ depends-external:
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zlib.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/../zconf.h"
 - "/Users/piaojin/Desktop/PiaojinSwiftServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/CZlib/include/czlib.h"
-interface-hash: "f5ee0288400536c47940d5aece2c713b"
+interface-hash: "aaa50d57cf724f500d0d619b1e3a4f24"
